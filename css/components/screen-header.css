@@ -1,0 +1,29 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizintal-space);
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+
+.header__title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header__icons span{
+margin-left: 25px;
+position: relative;
+}
+
+.header__icons-badge{
+    width: 4px;
+    height: 4px;
+    background-color: tomato;
+    display: flex;
+    position: absolute;
+    right: -4px;
+    top: 0px;
+    border-radius: 2px;
+}
